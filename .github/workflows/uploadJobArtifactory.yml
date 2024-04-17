@@ -1,0 +1,13 @@
+name : Upload  Job Artifactory
+on: workflow_dispatch
+jobs:
+  uploadArtifactory:
+    runs-on: ubuntu-latest
+    steps:
+      - name: upload
+        uses: action/upload-artifactory@v3
+        with:
+          path: |
+            README.md
+            
+    
