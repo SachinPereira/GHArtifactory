@@ -5,11 +5,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: upload artift 
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: TestingUpload
           path: |
-            TestUpload
+            ./TestUpload
   
             
     
