@@ -5,7 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: upload
-        uses: action/upload-artifactory@v3
+        uses: actions/upload-artifactory@v3
         with:
           path: |
             README.md
